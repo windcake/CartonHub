@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+              android:layout_height="150dp">
+    <ImageView
+        android:id="@+id/imageView_item_recycler"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <TextView
+        android:id="@+id/textView_item_recycler_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageView_item_recycler"
+        android:text="漫画名称"
+        />
+
+    <TextView
+        android:id="@+id/textView_item_recycler_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageView_item_recycler"
+        android:layout_below="@id/textView_item_recycler_title"
+        android:text="漫画作者"
+        />
+
+    <TextView
+        android:id="@+id/textView_item_recycler_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageView_item_recycler"
+        android:layout_below="@id/textView_item_recycler_author"
+        android:text="漫画类型"
+        />
+
+    <TextView
+        android:id="@+id/textView_item_recycler_last"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageView_item_recycler"
+        android:layout_below="@id/textView_item_recycler_type"
+        android:text="最新章节"
+        />
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:src="@drawable/list_icon_right_s"-->
+
+
+        <!--/>-->
+
+</RelativeLayout>
